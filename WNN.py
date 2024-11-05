@@ -50,4 +50,4 @@ for i in range(1000):
     loss = train(model, x, y, optimizer, criterion)
     if i % 100 == 0:
         print(f'Epoch {i}, Loss: {loss.item()}')
-        
+
